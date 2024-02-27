@@ -1,0 +1,72 @@
+
+/* JOB Page CSS code  */
+.Job-Panel{
+  margin: 0;
+  padding: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.Job-Panel-upper-settings
+{
+  display: grid;
+  grid-template-columns: 80% 20%;
+  gap: 20px;
+}
+.Job-Panel-card-container
+{
+  margin-top: 1rem;
+}
+.Job-Panel-card-container {
+  min-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Job-Panel-card {
+  min-width: 100%;
+  border: 1px solid #ccc;
+  display: flex;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.Job-Panel-card-Image {
+  min-width: 20%;
+  min-height: 100%;
+  padding: 10px;
+}
+
+.Job-Panel-card-Image img {
+  width: 15rem; 
+  height: 15rem;
+  
+  object-fit: cover; 
+}
+
+.Job-Panel-card-description {
+  flex: 1;
+}
+
+.Job-Panel-card {
+  position: relative;
+}
+
+.Job-Panel-card-actions {
+  padding: 0.5rem;
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  top: 0;
+  right: 0;
+}
+
+.Job-Panel-card-actions .view{
+  color: blue;
+}
+.Job-Panel-card-actions .delete{
+  color: rgb(255, 0, 0);
+}
+/* JOB Page CSS code  */
